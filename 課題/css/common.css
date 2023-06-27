@@ -12,8 +12,16 @@ ul,
 li {
     list-style: none;
     display: flex;
-    padding :20px;
-    
+    padding-left: 30px;
+}
+
+ul,
+ol {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 160px;
+
 }
 
 a {
@@ -25,36 +33,47 @@ p {
     display: flex;
     justify-content: center;
     font-size: 60px;
-    padding-top: 40px;
-    padding-bottom: 80px;
+    margin-bottom: 40px;
+    color: #444466;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    width: 210px;
+    padding-left: 20px;
 }
 
 .body {
     background-image: url(/image/virtual_bg_01_unit02.png);
-    background-size: cover;
+    background-size: 1980px;
 }
 
-
-.logo {
+.link-site{
     display: flex;
-    justify-content: flex-end;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left:60px;
-    padding-right: 60px;
-    margin-left: 400px;
+    padding-left: 50px;
+    padding-top: 30px;
 }
 
-.headerlogo{
-    width: 120px;
-    height: 120px;
-    margin-right: 140px;
+.logo{
+    display: block;
+    float: right;
 }
 
-.mainlogo {
+.headerlogo {
+    display: flex;
+    width: 5px;
+    height: 80px;
+    margin-right: 150px;
+}
+
+.CHARACTER-name {
+    display: block;
+}
+
+.name {
     display: flex;
     justify-content: center;
-    width: 220px;
-    height: 220px;
     
 }
+
